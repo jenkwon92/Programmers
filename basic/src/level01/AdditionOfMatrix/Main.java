@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
-		Solution solution = new Solution();
+		AdditionOfMatrix solution = new AdditionOfMatrix();
 		//int[][] arr1 = new int[2][2];
 		//int[][] arr2 = new int[2][2];
 		Scanner sc = new Scanner(System.in);
