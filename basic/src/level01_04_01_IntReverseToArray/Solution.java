@@ -14,9 +14,16 @@ public class Solution {
 		/*자연수 n을 뒤집어 각 자리 숫자를 원소로 가지는 배열 형태로 리턴해주세요. 예를들어 n이 12345이면 [5,4,3,2,1]을 리턴합니다.*/
 		
 		long num = n;
-		String[] array = (num+"").split(""); //문자형 배열로 만들어준다음 
+		String str = Long.toString(num);
+		
+		String[] array = (str).split(""); //문자형 배열로 만들어준다음 
+		
+		for(int i=0; i<array.length; i++) {
+			
+			System.out.println(array[i]);
+		}
 		Arrays.sort(array, Collections.reverseOrder()); //sort기능으로 정렬 reverseOrder이용해 역순정렬
-		Arrays.toString(array);
+		//Arrays.toString(array);
 		
 		int[] answer = new int[array.length];
 		

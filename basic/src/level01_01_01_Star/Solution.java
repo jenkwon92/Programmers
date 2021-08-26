@@ -1,4 +1,4 @@
-package level01_01_star;
+package level01_01_01_Star;
 
 import java.util.Scanner;
 

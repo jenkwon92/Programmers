@@ -7,7 +7,7 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		long n = sc.nextLong();
-		Solution2 solution = new Solution2();
+		Solution solution = new Solution();
 		int[] answer = solution.solution(n);
 
 		System.out.println(Arrays.toString(answer));
