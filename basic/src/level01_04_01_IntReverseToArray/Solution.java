@@ -18,12 +18,13 @@ public class Solution {
 		
 		String[] array = (str).split(""); //문자형 배열로 만들어준다음 
 		
-		for(int i=0; i<array.length; i++) {
-			
-			System.out.println(array[i]);
-		}
+		/*
+		 * for(int i=0; i<array.length; i++) {
+		 * 
+		 * System.out.println(array[i]); }
+		 */
 		Arrays.sort(array, Collections.reverseOrder()); //sort기능으로 정렬 reverseOrder이용해 역순정렬
-		//Arrays.toString(array);
+		Arrays.toString(array);
 		
 		int[] answer = new int[array.length];
 		

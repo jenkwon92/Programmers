@@ -4,12 +4,13 @@ public class Solution2 {
 	 public  int [] solution(long n) {
 	        
 	        String str = Long.toString(n);
-	        char [] chr = str.toCharArray();
+	        char [] chr = str.toCharArray(); //char 배열로 넣어줌
+	        
 	        char [] array = new char[chr.length];
 	        
 	        int[] answer = new int[array.length];
 	        for(int i=0; i<chr.length; i++) {
-	        	array[(chr.length-1)-i] =chr[i];
+	        	array[(chr.length-1)-i] =chr[i]; //뒤부터 대입해서 넣어줌
 	        }
 	        for(int i=0; i<array.length; i++) {
 	        	answer[i] = array[i]-'0'; //아스키 값으로 계산되기 때문에 
