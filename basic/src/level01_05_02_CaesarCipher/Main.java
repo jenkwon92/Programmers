@@ -10,8 +10,9 @@ public class Main {
 		String s =scanner.nextLine();
 		int n = scanner.nextInt();
 		
-		Solution solution = new Solution();
-		StringBuilder answer = solution.solution(s, n);
+		Solution2 solution = new Solution2();
+		//StringBuilder answer = solution.solution(s, n);
+		String answer = solution.solution(s, n);
 		scanner.close();
 		System.out.println(answer);
 		
