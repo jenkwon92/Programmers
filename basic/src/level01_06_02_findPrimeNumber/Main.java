@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
-		Solution_fail solution = new Solution_fail();
+		Solution solution = new Solution();
 		
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		int answer = solution.solution(n);
-		sc.close();
+		sc.close(); 
 		System.out.println(answer);
 	}
 }
