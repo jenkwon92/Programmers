@@ -1,4 +1,4 @@
-package level01_06_01_watermelon;
+package level01_06_01_Watermelon;
 
 import java.util.Scanner;
 

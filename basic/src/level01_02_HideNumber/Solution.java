@@ -1,4 +1,4 @@
-package level01_02_hideNumber;
+package level01_02_HideNumber;
 
 public class Solution {
 	public String solution(String phone_number) {

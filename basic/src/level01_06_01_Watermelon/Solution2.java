@@ -1,4 +1,4 @@
-package level01_06_01_watermelon;
+package level01_06_01_Watermelon;
 
 public class Solution2 {
 	public String solution(int n) {

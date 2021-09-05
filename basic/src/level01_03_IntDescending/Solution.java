@@ -1,4 +1,4 @@
-package level01_03_intDescending;
+package level01_03_IntDescending;
 
 import java.util.Arrays;
 

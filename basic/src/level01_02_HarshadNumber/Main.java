@@ -1,4 +1,4 @@
-package level01_02_harshadNumber;
+package level01_02_HarshadNumber;
 
 import java.util.Scanner;
 

@@ -1,10 +1,10 @@
-package level01_06_02_findPrimeNumber;
+package level01_06_02_FindPrimeNumber;
 /*
 정확성: 56.3
 효율성: 0.0
 합계: 56.3 / 100.0
  */
-public class Solution_fail {
+public class Solution_RunTimeError1 {
 	public int solution(int n) {
 		int answer = 0;
 		int count = 0;

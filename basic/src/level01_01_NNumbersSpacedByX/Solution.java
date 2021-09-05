@@ -1,4 +1,4 @@
-package level01_01_nNumbersSpacedByX;
+package level01_01_NNumbersSpacedByX;
 
 class Solution {
 	public long[] solution(long x, int n) {

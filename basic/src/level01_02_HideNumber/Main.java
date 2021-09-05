@@ -1,4 +1,4 @@
-package level01_02_hideNumber;
+package level01_02_HideNumber;
 
 import java.util.Scanner;
 

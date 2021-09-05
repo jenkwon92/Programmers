@@ -1,4 +1,4 @@
-package level01_06_02_findPrimeNumber;
+package level01_06_02_FindPrimeNumber;
 
 public class Solution_success1 { 
 	public int solution(int n) {

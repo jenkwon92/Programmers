@@ -1,4 +1,4 @@
-package level01_01_nNumbersSpacedByX;
+package level01_01_NNumbersSpacedByX;
 
 import java.util.Arrays;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package level01_03_intDescending;
+package level01_03_IntDescending;
 
 public class Solution2_bubble {
 	public long solution(long n) {
