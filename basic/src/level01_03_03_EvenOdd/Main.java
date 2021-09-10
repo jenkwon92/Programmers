@@ -11,6 +11,7 @@ public class Main {
 		
 		String answer = solution.solution(num);
 		System.out.println(answer);
+		sc.close();
 	}
 	
 }

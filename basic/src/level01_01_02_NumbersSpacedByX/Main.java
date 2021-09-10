@@ -13,7 +13,7 @@ public class Main {
 		
 		long[] answer = solution.solution(x, n);
 		System.out.println(Arrays.toString(answer));
-		
+		sc.close();
 		
 	}
 }

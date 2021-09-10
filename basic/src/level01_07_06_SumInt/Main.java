@@ -1,18 +1,14 @@
-package level01_02_01_HideNumber;
+package level01_07_06_SumInt;
 
 import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
-		String phone_number =null;
-		String answer = null;
-		
 		Scanner sc = new Scanner(System.in);
-		phone_number =sc.next();
-		
+		int a = sc.nextInt();
+		int b = sc.nextInt();
 		Solution solution = new Solution();
-		answer = solution.solution(phone_number);
-		
+		long answer = solution.solution(a, b);
 		System.out.println(answer);
 		sc.close();
 	}

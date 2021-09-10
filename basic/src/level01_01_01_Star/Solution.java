@@ -9,5 +9,6 @@ public class Solution {
         int b = sc.nextInt();
 
         System.out.println(a + b);
+        sc.close();
     }
 }

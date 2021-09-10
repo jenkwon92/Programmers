@@ -11,6 +11,7 @@ public class Main {
 		b=sol.solution(x);
 	
 		System.out.println(b);
+		sc.close();
 	}
 	
 }

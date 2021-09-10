@@ -18,6 +18,6 @@ public class Main {
 		Solution solution = new Solution();
 		answer = solution.solution(arr);
 		System.out.println(answer);
-		    
+		sc.close();
 	}
 }

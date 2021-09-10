@@ -9,5 +9,6 @@ public class Main {
 		int answer = new Solution().solution(n);
 		
 		System.out.println(answer);
+		sc.close();
 	}
 }

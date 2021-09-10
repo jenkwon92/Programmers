@@ -1,18 +1,13 @@
-package level01_02_01_HideNumber;
+package level01_07_02_String;
 
 import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
-		String phone_number =null;
-		String answer = null;
-		
 		Scanner sc = new Scanner(System.in);
-		phone_number =sc.next();
-		
+		String s = sc.nextLine();
 		Solution solution = new Solution();
-		answer = solution.solution(phone_number);
-		
+		boolean answer = solution.solution(s);
 		System.out.println(answer);
 		sc.close();
 	}

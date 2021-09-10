@@ -1,6 +1,6 @@
 package level01_06_02_FindPrimeNumber;
 
-public class Solution_success1 { 
+public class Solution_success { 
 	public int solution(int n) {
 		int answer = 0;
 
@@ -10,7 +10,7 @@ public class Solution_success1 {
 				if (i % a == 0) {
 					count++;
 					break;
-				}
+				}	
 			}
 			if (count == 0)
 				answer++;

@@ -22,6 +22,6 @@ public class Main {
 		
 		int[][] answer = solution.solution(arr1, arr2);
 		System.out.println(Arrays.deepToString(answer));
-		
+		sc.close();
 	}
 }

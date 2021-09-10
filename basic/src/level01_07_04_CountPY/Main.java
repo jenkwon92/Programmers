@@ -1,14 +1,14 @@
-package level01_03_01_Collatz;
+package level01_07_04_CountPY;
 
 import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
+		
 		Scanner sc = new Scanner(System.in);
-		int num = sc.nextInt();
+		String s = sc.nextLine();
 		Solution solution = new Solution();
-		int answer = solution.solution(num);
-		System.out.println(answer);
+		System.out.println(solution.solution(s));
 		sc.close();
 	}
 }

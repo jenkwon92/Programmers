@@ -14,13 +14,10 @@ public class Solution_RunTimeError1 {
 				if (i % a == 0)
 					count++;
 			}
-
 			if (count == 2) 
 				answer ++;
 			count = 0;
-
 		}
-
 		return answer;
 	}
 }

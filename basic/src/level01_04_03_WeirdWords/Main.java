@@ -10,5 +10,6 @@ public class Main {
 		
 		String answer = sol.solution(n);
 		System.out.println(answer);
+		sc.close();
 	}
 }
