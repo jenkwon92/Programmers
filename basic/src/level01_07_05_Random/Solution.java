@@ -21,15 +21,12 @@ public class Solution {
 		for (int i = 0; i < strings.length; i++) {
 			list.add(strings[i].charAt(n) + strings[i]);
 		}
-
 		Collections.sort(list);
-
 		String[] answer = new String[list.size()];
 
 		for (int i = 0; i < list.size(); i++) {
-			answer[i] = list.get(i).substring(1, list.get(i).length());
+			answer[i] = list.get(i).substring(1, list.get(i).length()); //substring(1) ;이렇게만 사용해줘도 가능함
 		}
-
 		return answer;
 	}
 }

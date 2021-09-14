@@ -14,7 +14,6 @@ public class Solution3 {
 				if(c1 == c2) {
 					return s1.compareTo(s2); //내림차순
 				}else {
-					System.out.println(c1-c2);
 					return c1-c2; //음수일경우 변경 양수일 경우 그대로유지
 				}
 			}
