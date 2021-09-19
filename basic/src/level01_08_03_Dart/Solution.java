@@ -9,7 +9,7 @@ public class Solution {
 	       ArrayList list = new ArrayList(dartResult.length());
 	        for(int i=0; i<list.size(); i++) {
 	        	list.add(dartResult.indexOf(i));
-	        	System.out.println(Arrays.toString());
+	        	System.out.println(Arrays.list.toArray());
 	        }
 	        return answer;
 	    }
