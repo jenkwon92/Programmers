@@ -12,17 +12,16 @@ class Solution {
 	        ArrayList<String> binaryStringArr3 = new ArrayList<String>();
 	        String zeroAdd ="";
 	        
-	        for(int i=0; i<arr1.length; i++){
-	        	Integer.toBinaryString(arr1[i]);
-	            binaryStringArr1.add();
+	        for(int i=0; i<n; i++){ 
+	            binaryStringArr1.add(Integer.toBinaryString(arr1[i]));
 	            binaryStringArr2.add(Integer.toBinaryString(arr2[i]));
 	        }
 	        
-	       for(int i=0; i<binaryStringArr1.size();i++) {
-	    	   if(binaryStringArr1.get(i).length()!=5 || binaryStringArr2.get(i).length()!=5) {
+	       for(int i=0; i<n;i++) {
+	    	   if(binaryStringArr1.get(i).length()!=n || binaryStringArr2.get(i).length()!=n) {
 					/* binaryStringArr1.get(i).replaceFirst("0", binaryStringArr1.get(i)); */
-	    		   binary
-	    		   binaryStringArr2.get(i).startsWith("0");
+	    		   for()
+	    		   zeroAdd += "0";
 	    	   }	
 	    	   for(int a=0; a<binaryStringArr1.get(i).length(); a++) {
 	    		if(binaryStringArr1.get(i).charAt(a)==binaryStringArr2.get(i).charAt(a)) {
