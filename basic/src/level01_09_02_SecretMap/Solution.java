@@ -10,7 +10,11 @@ class Solution {
 		ArrayList<String> binaryStringArr1 = new ArrayList<String>();
 		ArrayList<String> binaryStringArr2 = new ArrayList<String>();
 		String zeroAdd = "";
-
+		
+		String result = "";
+		ArrayList<String> list = new ArrayList<String>(n);
+		
+		
 		for (int i = 0; i < n; i++) {
 			binaryStringArr1.add(Integer.toBinaryString(arr1[i]));
 			binaryStringArr2.add(Integer.toBinaryString(arr2[i]));
@@ -32,16 +36,22 @@ class Solution {
 				binaryStringArr2.set(i, zeroAdd + binaryStringArr2.get(i));
 				zeroAdd = "";
 			}
-			
-			for(int a =0; a<n; a++) {
-				for(binaryStringArr1.get(i).indexOf(a)==binaryStringArr2.get(i).indexOf(a)) {
-					System.out.println(true);
+
+			for (int a = 0; a < n; a++) {
+				if(binaryStringArr1.get(i).charAt(a)==0 && binaryStringArr2.get(i).charAt(a)==0) {
+					
+					result +=0;
+				}else {
+					System.out.println(binaryStringArr1.get(i).charAt(a));
+					System.out.println(binaryStringArr2.get(i).charAt(a));
+					result +=1;
 				}
+				list.add(i, result);
+				result = "";
 			}
+			System.out.println(list);
 		}
-		
-		
-		
+
 		System.out.println(binaryStringArr1);
 		System.out.println(binaryStringArr2);
 
