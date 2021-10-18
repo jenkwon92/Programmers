@@ -1,13 +1,29 @@
 package level01_11_02_BoxerSort;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class Solution {
     public int[] solution(int[] weights, String[] head2head) {
         int[] answer = {};
-        
-        
+        ArrayList<String> list = new ArrayList<String>();
+        for(int i= 0; i<head2head.length; i++) {
+        	for(int a=0; a<head2head.length; a++) {
+        		list.add(i, head2head[i].split(""));
+        	}
+        }
+        System.out.println(list.toString());
         
         return answer;
     }
+    
+    public static void main(String[] args) {
+    	
+    	int [] weight = {50,82,75,120};
+    	String [] head2head = {"NLWL","WNLL","LWNW","WWLN"};
+		int[] answer = new Solution().solution(weight,head2head);
+		System.out.println(Arrays.toString(answer));
+	}
 }
 
 /*
